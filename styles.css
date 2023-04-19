@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+    --col-prim-soft-blue: hsl(215, 51%, 70%);
+    --col-prim-cyan: hsl(178, 100%, 50%);
+
+    --col-sec-main-bg: hsl(217, 54%, 11%);
+    --col-sec-card-bg: hsl(216, 50%, 16%);
+    --col-sec-divider: hsl(215, 32%, 27%);
+    --col-sec-white: hsl(0, 0%, 100%);
+
+    --fw-normal: 300;
+    --fw-medium: 400;
+    --fw-bold: 600;
+
+    --ff-main: 'Outfit', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--col-sec-main-bg);
+    font-family: var(--ff-main);
+    color: var(--col-sec-white);
+    height: 100vh;
+}
+
+.component-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--col-sec-card-bg);
+    width: 30rem;
+    border-radius: 1.1rem;
+}
+
+
+
+
+
+
+
+/* Footer Info */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
